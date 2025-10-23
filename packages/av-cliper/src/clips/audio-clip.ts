@@ -213,6 +213,8 @@ export class AudioClip implements IClip {
     this.#chan1Buf = new Float32Array(0);
     Log.info('---- audioclip destroy ----');
   }
+
+  static concatAudioClip = concatAudioClip;
 }
 
 /**

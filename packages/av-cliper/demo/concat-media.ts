@@ -1,5 +1,5 @@
 import { Log, createChromakey, fastConcatMP4 } from '../src';
-import { AudioClip, ImgClip, MP4Clip, concatAudioClip } from '../src/clips';
+import { AudioClip, ImgClip, MP4Clip } from '../src/clips';
 import { EmbedSubtitlesClip } from '../src/clips/embed-subtitles-clip';
 import { Combinator } from '../src/combinator';
 import { renderTxt2ImgBitmap } from '../src/dom-utils';
@@ -140,7 +140,7 @@ document.querySelector('#concat-audio')?.addEventListener('click', () => {
     const resList = ['./audio/16kHz-1chan.mp3', './audio/44.1kHz-2chan.m4a'];
     const { loadStream } = playOutputStream(resList, playerContainer);
 
-    const clip = await concatAudioClip(
+    const clip = await AudioClip.concatAudioClip(
       await Promise.all(
         resList.map(async (url) => new AudioClip((await fetch(url)).body!)),
       ),
