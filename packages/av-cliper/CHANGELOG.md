@@ -1,5 +1,12 @@
 # @webav/av-cliper
 
+## 1.2.7
+
+### Patch Changes
+
+- 82eb892: feat: add AudioClip.concatAudioClip
+  - @webav/internal-utils@1.2.7
+
 ## 1.2.6
 
 ### Patch Changes
