@@ -186,6 +186,11 @@ export class AVCanvas {
     this.#autoPreFrame.reset();
   }
 
+  changeResolution(width: number, height: number) {
+    this.#cvsEl.width = width;
+    this.#cvsEl.height = height;
+  }
+
   #audioCtx = new AudioContext();
   #captureAudioDest = this.#audioCtx.createMediaStreamDestination();
 
