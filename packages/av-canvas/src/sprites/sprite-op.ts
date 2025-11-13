@@ -1,5 +1,5 @@
-import { Rect } from '@hy/av-cliper';
-import { debounce } from '@hy/internal-utils';
+import { Rect } from '@xuhuanyu/av-cliper';
+import { debounce } from '@xuhuanyu/internal-utils';
 import { CTRL_KEYS, ICvsRatio, IPoint, TCtrlKey } from '../types';
 import { createEl, getCvsRatio } from '../utils';
 import { ESpriteManagerEvt, SpriteManager } from './sprite-manager';

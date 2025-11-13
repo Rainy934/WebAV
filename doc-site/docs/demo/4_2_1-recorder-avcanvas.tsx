@@ -1,11 +1,11 @@
-import { AVCanvas } from '@hy/av-canvas';
+import { AVCanvas } from '@xuhuanyu/av-canvas';
 import {
   ImgClip,
   MediaStreamClip,
   VisibleSprite,
   renderTxt2ImgBitmap,
-} from '@hy/av-cliper';
-import { AVRecorder } from '@hy/av-recorder';
+} from '@xuhuanyu/av-cliper';
+import { AVRecorder } from '@xuhuanyu/av-recorder';
 import { Button } from 'antd';
 import { useEffect, useState } from 'react';
 

@@ -1,4 +1,4 @@
-import { Log } from '@hy/internal-utils';
+import { Log } from '@xuhuanyu/internal-utils';
 import { fastConcatMP4, mixinMP4AndAudio } from '../src/mp4-utils';
 import { playOutputStream } from './play-video';
 

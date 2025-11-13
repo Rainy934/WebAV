@@ -1,4 +1,4 @@
-import { VisibleSprite } from '@hy/av-cliper';
+import { VisibleSprite } from '@xuhuanyu/av-cliper';
 import { CTRL_KEYS, TCtrlKey } from '../types';
 import { createEl, getCvsRatio, getRectCtrls } from '../utils';
 import { ESpriteManagerEvt, SpriteManager } from './sprite-manager';

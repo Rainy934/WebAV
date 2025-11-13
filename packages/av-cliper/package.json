@@ -1,5 +1,5 @@
 {
-  "name": "@hy/av-cliper",
+  "name": "@xuhuanyu/av-cliper",
   "version": "1.3.0",
   "private": false,
   "repository": "https://github.com/WebAV-Tech/WebAV",
@@ -40,7 +40,7 @@
     "dist"
   ],
   "dependencies": {
-    "@hy/internal-utils": "workspace:*",
+    "@xuhuanyu/internal-utils": "workspace:*",
     "@webav/mp4box.js": "^0.5.7",
     "opfs-tools": "^0.7.2",
     "wave-resampler": "^1.0.0"

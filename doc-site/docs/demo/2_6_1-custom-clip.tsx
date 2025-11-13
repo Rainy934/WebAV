@@ -1,4 +1,4 @@
-import { Combinator, IClip, OffscreenSprite } from '@hy/av-cliper';
+import { Combinator, IClip, OffscreenSprite } from '@xuhuanyu/av-cliper';
 import { useState } from 'react';
 import { CombinatorPlay } from './combinator-player';
 

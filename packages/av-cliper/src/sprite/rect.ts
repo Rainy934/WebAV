@@ -1,4 +1,4 @@
-import { EventTool } from '@hy/internal-utils';
+import { EventTool } from '@xuhuanyu/internal-utils';
 
 interface IPoint {
   x: number;

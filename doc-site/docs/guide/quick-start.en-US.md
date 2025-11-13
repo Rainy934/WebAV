@@ -14,16 +14,16 @@ order: 2
 :::code-group
 
 ```bash [npm]
-$ npm install @hy/av-cliper
+$ npm install @xuhuanyu/av-cliper
 ```
 
 ```bash [pnpm]
-$ pnpm add @hy/av-cliper
+$ pnpm add @xuhuanyu/av-cliper
 ```
 
 :::
 
-If your project relies on multiple packages under `@hy/*`, be sure to keep their version numbers consistent.
+If your project relies on multiple packages under `@xuhuanyu/*`, be sure to keep their version numbers consistent.
 
 ## Project Structure
 

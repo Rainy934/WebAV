@@ -1,4 +1,4 @@
-import { EventTool } from '@hy/internal-utils';
+import { EventTool } from '@xuhuanyu/internal-utils';
 import { IRectBaseProps, Rect } from './rect';
 
 interface IAnimationOpts {

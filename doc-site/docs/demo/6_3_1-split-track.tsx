@@ -1,4 +1,4 @@
-import { MP4Clip } from '@hy/av-cliper';
+import { MP4Clip } from '@xuhuanyu/av-cliper';
 import { Button } from 'antd';
 import { useEffect, useState } from 'react';
 import { assetsPrefix } from './utils';

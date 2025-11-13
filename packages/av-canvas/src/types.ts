@@ -1,4 +1,4 @@
-import { Rect } from '@hy/av-cliper';
+import { Rect } from '@xuhuanyu/av-cliper';
 
 /**
  * 二维坐标系中的点

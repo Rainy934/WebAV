@@ -5,7 +5,7 @@ import {
   OffscreenSprite,
   createChromakey,
   fastConcatMP4,
-} from '@hy/av-cliper';
+} from '@xuhuanyu/av-cliper';
 import { useState } from 'react';
 import { CombinatorPlay } from './combinator-player';
 import { assetsPrefix } from './utils';

@@ -1,7 +1,7 @@
 # WebAV
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)
-![NPM downloads](https://img.shields.io/npm/dm/@hy/av-cliper)
+![NPM downloads](https://img.shields.io/npm/dm/@xuhuanyu/av-cliper)
 [![Release](https://github.com/WebAV-Tech/WebAV/actions/workflows/release.yml/badge.svg)](https://github.com/WebAV-Tech/WebAV/actions/workflows/release.yml)
 
 English | [中文](./README_CN.md)
@@ -61,7 +61,7 @@ import {
   OffscreenSprite,
   renderTxt2ImgBitmap,
   Combinator,
-} from '@hy/av-cliper';
+} from '@xuhuanyu/av-cliper';
 
 const spr1 = new OffscreenSprite(
   new MP4Clip((await fetch('./video/bunny.mp4')).body),
@@ -114,8 +114,8 @@ import {
   MP4Clip,
   VisibleSprite,
   renderTxt2ImgBitmap,
-} from '@hy/av-cliper';
-import { AVCanvas } from '@hy/av-canvas';
+} from '@xuhuanyu/av-cliper';
+import { AVCanvas } from '@xuhuanyu/av-canvas';
 
 const avCvs = new AVCanvas(document.querySelector('#app'), {
   width: 1280,
@@ -154,7 +154,7 @@ await avCvs.add(spr2);
 <summary style="cursor: pointer;"> Code Demo: Record Camera and Microphone, Output MP4 File Stream </summary>
 
 ```js
-import { AVRecorder } from '@hy/av-recorder';
+import { AVRecorder } from '@xuhuanyu/av-recorder';
 const mediaStream = await navigator.mediaDevices.getUserMedia({
   video: true,
   audio: true,

@@ -1,4 +1,9 @@
-import { EventTool, file2stream, Log, recodemux } from '@hy/internal-utils';
+import {
+  EventTool,
+  file2stream,
+  Log,
+  recodemux,
+} from '@xuhuanyu/internal-utils';
 import { sleep } from './av-utils';
 import { DEFAULT_AUDIO_CONF } from './clips';
 import { OffscreenSprite } from './sprite/offscreen-sprite';

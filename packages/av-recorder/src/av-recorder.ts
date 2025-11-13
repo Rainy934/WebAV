@@ -4,7 +4,7 @@ import {
   file2stream,
   Log,
   recodemux,
-} from '@hy/internal-utils';
+} from '@xuhuanyu/internal-utils';
 import {
   AVRecorderConf,
   IRecordeOpts as IRecordOpts,

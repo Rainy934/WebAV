@@ -1,4 +1,4 @@
-import { Log } from '@hy/internal-utils';
+import { Log } from '@xuhuanyu/internal-utils';
 import { decodeImg } from '../av-utils';
 import { IClip } from './iclip';
 

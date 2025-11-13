@@ -1,4 +1,4 @@
-import { createChromakey } from '@hy/av-cliper';
+import { createChromakey } from '@xuhuanyu/av-cliper';
 import { useEffect, useState } from 'react';
 import { assetsPrefix } from './utils';
 

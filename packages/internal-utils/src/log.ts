@@ -111,7 +111,7 @@ interface PressureRecord {
   await Promise.resolve();
   if (globalThis.navigator == null || globalThis.document == null) return;
   Log.info(
-    `@hy version: ${PKG_VERSION}, date: ${new Date().toLocaleDateString()}`,
+    `@xuhuanyu version: ${PKG_VERSION}, date: ${new Date().toLocaleDateString()}`,
   );
   Log.info(globalThis.navigator.userAgent);
   document.addEventListener('visibilitychange', () => {

@@ -1,4 +1,9 @@
-import { AudioClip, Combinator, ImgClip, OffscreenSprite } from '@hy/av-cliper';
+import {
+  AudioClip,
+  Combinator,
+  ImgClip,
+  OffscreenSprite,
+} from '@xuhuanyu/av-cliper';
 import { useState } from 'react';
 import { CombinatorPlay } from './combinator-player';
 import { assetsPrefix } from './utils';

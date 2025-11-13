@@ -4,7 +4,7 @@ import {
   MP4Clip,
   OffscreenSprite,
   renderTxt2ImgBitmap,
-} from '@hy/av-cliper';
+} from '@xuhuanyu/av-cliper';
 import { Slider } from 'antd';
 import { useState } from 'react';
 import { CombinatorPlay } from './combinator-player';

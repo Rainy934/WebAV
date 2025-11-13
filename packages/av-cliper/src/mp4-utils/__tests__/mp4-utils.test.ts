@@ -1,5 +1,5 @@
-import { autoReadStream, file2stream } from '@hy/internal-utils';
 import mp4box from '@webav/mp4box.js';
+import { autoReadStream, file2stream } from '@xuhuanyu/internal-utils';
 import { file, write } from 'opfs-tools';
 import { beforeAll, describe, expect, test, vi } from 'vitest';
 import {

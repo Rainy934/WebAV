@@ -10,7 +10,7 @@ group:
 The left side contains several demos to experience, which are based on the [WebAV project][2] to implement various examples of processing audio and video data in a pure browser environment.
 
 ```tsx
-import { Combinator } from '@hy/av-cliper';
+import { Combinator } from '@xuhuanyu/av-cliper';
 import { useState, useEffect } from 'react';
 
 export default function UI() {

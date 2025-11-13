@@ -1,11 +1,11 @@
-import { AVCanvas } from '@hy/av-canvas';
+import { AVCanvas } from '@xuhuanyu/av-canvas';
 import {
   AudioClip,
   ImgClip,
   MP4Clip,
   VisibleSprite,
   renderTxt2ImgBitmap,
-} from '@hy/av-cliper';
+} from '@xuhuanyu/av-cliper';
 import {
   Timeline,
   TimelineAction,

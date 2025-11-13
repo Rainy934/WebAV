@@ -1,5 +1,5 @@
-import { fixFMP4Duration } from '@hy/av-cliper';
-import { AVRecorder } from '@hy/av-recorder';
+import { fixFMP4Duration } from '@xuhuanyu/av-cliper';
+import { AVRecorder } from '@xuhuanyu/av-recorder';
 import { Button, Divider } from 'antd';
 import { useEffect, useRef, useState } from 'react';
 import { createFileWriter } from './utils';

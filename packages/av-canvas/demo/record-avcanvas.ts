@@ -1,5 +1,5 @@
-import { MediaStreamClip, VisibleSprite } from '@hy/av-cliper';
-import { AVRecorder } from '@hy/av-recorder';
+import { MediaStreamClip, VisibleSprite } from '@xuhuanyu/av-cliper';
+import { AVRecorder } from '@xuhuanyu/av-recorder';
 import { AVCanvas } from '../src/index';
 import { createEl } from '../src/utils';
 

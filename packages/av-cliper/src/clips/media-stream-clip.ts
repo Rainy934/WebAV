@@ -1,4 +1,4 @@
-import { autoReadStream } from '@hy/internal-utils';
+import { autoReadStream } from '@xuhuanyu/internal-utils';
 import { IClip } from './iclip';
 
 /**

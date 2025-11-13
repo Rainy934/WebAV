@@ -1,10 +1,10 @@
-import { autoReadStream, file2stream, Log } from '@hy/internal-utils';
 import mp4box, {
   MP4File,
   MP4Sample,
   SampleOpts,
   TrakBoxParser,
 } from '@webav/mp4box.js';
+import { autoReadStream, file2stream, Log } from '@xuhuanyu/internal-utils';
 import { tmpfile, write } from 'opfs-tools';
 import {
   concatPCMFragments,

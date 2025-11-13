@@ -1,4 +1,4 @@
-import { AVRecorder } from '@hy/av-recorder';
+import { AVRecorder } from '@xuhuanyu/av-recorder';
 import { Button, Divider } from 'antd';
 import { useEffect, useRef, useState } from 'react';
 import { createFileWriter } from './utils';

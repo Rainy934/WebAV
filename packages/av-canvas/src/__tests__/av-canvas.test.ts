@@ -1,4 +1,4 @@
-import { IClip, VisibleSprite } from '@hy/av-cliper';
+import { IClip, VisibleSprite } from '@xuhuanyu/av-cliper';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { AVCanvas } from '../av-canvas';
 import { createEl } from '../utils';

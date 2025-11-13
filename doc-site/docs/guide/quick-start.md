@@ -14,20 +14,20 @@ order: 2
 :::code-group
 
 ```bash [npm]
-npm install @hy/av-cliper
+npm install @xuhuanyu/av-cliper
 
-npm install @hy/av-canvas
+npm install @xuhuanyu/av-canvas
 ```
 
 ```bash [pnpm]
-pnpm add @hy/av-cliper
+pnpm add @xuhuanyu/av-cliper
 
-pnpm add @hy/av-canvas
+pnpm add @xuhuanyu/av-canvas
 ```
 
 :::
 
-如果你先项目依赖多个 `@hy/*` 下的包，务必让它们的版本号保持一致。
+如果你先项目依赖多个 `@xuhuanyu/*` 下的包，务必让它们的版本号保持一致。
 
 ## 项目目录
 

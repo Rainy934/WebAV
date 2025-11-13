@@ -1,4 +1,4 @@
-import { Rect } from '@hy/av-cliper';
+import { Rect } from '@xuhuanyu/av-cliper';
 import { ICvsRatio, RectCtrls } from './types';
 
 export function createEl(tagName: string): HTMLElement {

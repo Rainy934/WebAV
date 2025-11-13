@@ -1,4 +1,4 @@
-import { AudioClip } from '@hy/av-cliper';
+import { AudioClip } from '@xuhuanyu/av-cliper';
 import { Button, Radio } from 'antd';
 import { useEffect, useState } from 'react';
 import { assetsPrefix } from './utils';

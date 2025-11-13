@@ -1,4 +1,4 @@
-import { Rect } from '@hy/av-cliper';
+import { Rect } from '@xuhuanyu/av-cliper';
 import { expect, test } from 'vitest';
 import { getRectCtrls } from '../utils';
 

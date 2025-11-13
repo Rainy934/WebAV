@@ -1,4 +1,4 @@
-import { Combinator } from '@hy/av-cliper';
+import { Combinator } from '@xuhuanyu/av-cliper';
 import { Button } from 'antd';
 import { useEffect, useState } from 'react';
 
