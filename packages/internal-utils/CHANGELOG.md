@@ -1,4 +1,4 @@
-# @webav/internal-utils
+# @hy/internal-utils
 
 ## 1.3.0
 
@@ -135,7 +135,7 @@
 
 ### Patch Changes
 
-- b178269: chore: replace prepublishOnly with prepare scripts to auto build @webav/av-cliper and @webav/internal-utils
+- b178269: chore: replace prepublishOnly with prepare scripts to auto build @hy/av-cliper and @hy/internal-utils
 
 ## 1.0.2
 

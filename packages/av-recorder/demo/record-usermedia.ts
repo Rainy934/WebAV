@@ -1,4 +1,4 @@
-import { Combinator } from '@webav/av-cliper';
+import { Combinator } from '@hy/av-cliper';
 import { AVRecorder } from '../src/av-recorder';
 (async () => {
   if (!(await Combinator.isSupported())) {

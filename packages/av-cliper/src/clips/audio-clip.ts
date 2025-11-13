@@ -1,4 +1,4 @@
-import { Log } from '@webav/internal-utils';
+import { Log } from '@hy/internal-utils';
 import {
   concatPCMFragments,
   extractPCM4AudioBuffer,

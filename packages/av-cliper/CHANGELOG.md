@@ -1,4 +1,4 @@
-# @webav/av-cliper
+# @hy/av-cliper
 
 ## 1.3.0
 
@@ -9,27 +9,27 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @webav/internal-utils@1.3.0
+  - @hy/internal-utils@1.3.0
 
 ## 1.2.7
 
 ### Patch Changes
 
 - 82eb892: feat: add AudioClip.concatAudioClip
-  - @webav/internal-utils@1.2.7
+  - @hy/internal-utils@1.2.7
 
 ## 1.2.6
 
 ### Patch Changes
 
 - 5c4c275: feat: Combinator.ouput support maxTime
-  - @webav/internal-utils@1.2.6
+  - @hy/internal-utils@1.2.6
 
 ## 1.2.5
 
 ### Patch Changes
 
-- @webav/internal-utils@1.2.5
+- @hy/internal-utils@1.2.5
 
 ## 1.2.4
 
@@ -37,28 +37,28 @@
 
 - 4746e46: feat: when subtitles are too long, they automatically wrap.
 - 4746e46: fix: compatible with incomplete audio codec string mp4a.40
-  - @webav/internal-utils@1.2.4
+  - @hy/internal-utils@1.2.4
 
 ## 1.2.3
 
 ### Patch Changes
 
 - 06d34b4: fix: rotation direction is reversed
-  - @webav/internal-utils@1.2.3
+  - @hy/internal-utils@1.2.3
 
 ## 1.2.2
 
 ### Patch Changes
 
 - 2d4eec1: fix: MP4Clip has not adapted to the video track’s matrix settings
-  - @webav/internal-utils@1.2.2
+  - @hy/internal-utils@1.2.2
 
 ## 1.2.1
 
 ### Patch Changes
 
 - 59eb489: fix: parse audio codec incorrect #396
-  - @webav/internal-utils@1.2.1
+  - @hy/internal-utils@1.2.1
 
 ## 1.2.0
 
@@ -69,14 +69,14 @@
 ### Patch Changes
 
 - Updated dependencies [5bb3a47]
-  - @webav/internal-utils@1.2.0
+  - @hy/internal-utils@1.2.0
 
 ## 1.1.17
 
 ### Patch Changes
 
 - 0e2c1ae: fix: generating thumbnails may cause the program to hang
-  - @webav/internal-utils@1.1.17
+  - @hy/internal-utils@1.1.17
 
 ## 1.1.16
 
@@ -84,47 +84,47 @@
 
 - fc541bb: fix: preserve SPS/PPS NALUs before IDR frames to ensure proper video decoding
 - 0d82c10: fix: display black frame before previewFrame
-  - @webav/internal-utils@1.1.16
+  - @hy/internal-utils@1.1.16
 
 ## 1.1.15
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.15
+- @hy/internal-utils@1.1.15
 
 ## 1.1.14
 
 ### Patch Changes
 
 - 9bae19e: fix: audio/video sync drift in fixMP4BoxFileDuration #446
-  - @webav/internal-utils@1.1.14
+  - @hy/internal-utils@1.1.14
 
 ## 1.1.13
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.13
+- @hy/internal-utils@1.1.13
 
 ## 1.1.12
 
 ### Patch Changes
 
 - 11f5be8: fix: black frame for AVCanvas play
-  - @webav/internal-utils@1.1.12
+  - @hy/internal-utils@1.1.12
 
 ## 1.1.11
 
 ### Patch Changes
 
 - 32b7d47: fix: OOM when add many clips to AVCanvas
-  - @webav/internal-utils@1.1.11
+  - @hy/internal-utils@1.1.11
 
 ## 1.1.10
 
 ### Patch Changes
 
 - 14f3cf9: fix: compatible frame type incorrect
-  - @webav/internal-utils@1.1.10
+  - @hy/internal-utils@1.1.10
 
 ## 1.1.9
 
@@ -132,7 +132,7 @@
 
 - ccd0ec8: feat: support mux vp9 #434
 - Updated dependencies [ccd0ec8]
-  - @webav/internal-utils@1.1.9
+  - @hy/internal-utils@1.1.9
 
 ## 1.1.8
 
@@ -140,59 +140,59 @@
 
 - c99bd8e: fix: the first keyframe is trusted as an IDR frame by default for compatibility with certain video files that have abnormal annotations.
 - Updated dependencies [c99bd8e]
-  - @webav/internal-utils@1.1.8
+  - @hy/internal-utils@1.1.8
 
 ## 1.1.7
 
 ### Patch Changes
 
 - 013e45c: fix: mp4clip compatible with anomalous data #424
-  - @webav/internal-utils@1.1.7
+  - @hy/internal-utils@1.1.7
 
 ## 1.1.6
 
 ### Patch Changes
 
 - 0adc360: fix: preserve tickInterceptor when cloning ImgClip instance
-  - @webav/internal-utils@1.1.6
+  - @hy/internal-utils@1.1.6
 
 ## 1.1.5
 
 ### Patch Changes
 
 - cdf8eb1: feat: add custom font support for text-to-image rendering #415
-  - @webav/internal-utils@1.1.5
+  - @hy/internal-utils@1.1.5
 
 ## 1.1.4
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.4
+- @hy/internal-utils@1.1.4
 
 ## 1.1.3
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.3
+- @hy/internal-utils@1.1.3
 
 ## 1.1.3-snapshot.0
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.3-snapshot.0
+- @hy/internal-utils@1.1.3-snapshot.0
 
 ## 1.1.2
 
 ### Patch Changes
 
 - f4c4fb4: feat(av-cliper): add font style support for subtitles. Add fontWeight and fontStyle options to EmbedSubtitlesClip. Support both string ('bold') and numeric (700) font weights. Support italic and normal font styles. Update demo and test cases.
-  - @webav/internal-utils@1.1.2
+  - @hy/internal-utils@1.1.2
 
 ## 1.1.1
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.1
+- @hy/internal-utils@1.1.1
 
 ## 1.1.0
 
@@ -202,54 +202,54 @@
 
 ### Patch Changes
 
-- @webav/internal-utils@1.1.0
+- @hy/internal-utils@1.1.0
 
 ## 1.0.20
 
 ### Patch Changes
 
-- @webav/internal-utils@1.0.20
+- @hy/internal-utils@1.0.20
 
 ## 1.0.19
 
 ### Patch Changes
 
 - 9203763: chore: upgrade version for opfs-tools
-  - @webav/internal-utils@1.0.19
+  - @hy/internal-utils@1.0.19
 
 ## 1.0.18
 
 ### Patch Changes
 
-- @webav/internal-utils@1.0.18
+- @hy/internal-utils@1.0.18
 
 ## 1.0.17
 
 ### Patch Changes
 
 - ece970a: fix: named export 'resample' not found #368
-  - @webav/internal-utils@1.0.17
+  - @hy/internal-utils@1.0.17
 
 ## 1.0.16
 
 ### Patch Changes
 
 - 0f58eae: fix: some files failed to decode. #364
-  - @webav/internal-utils@1.0.16
+  - @hy/internal-utils@1.0.16
 
 ## 1.0.15
 
 ### Patch Changes
 
 - bd86a2d: refactor: generate a keyframe every 3 seconds.
-  - @webav/internal-utils@1.0.15
+  - @hy/internal-utils@1.0.15
 
 ## 1.0.14
 
 ### Patch Changes
 
 - a55d12e: feat: Provide the binary data for the video header (box: ftyp, moov). #235 #348
-  - @webav/internal-utils@1.0.14
+  - @hy/internal-utils@1.0.14
 
 ## 1.0.13
 
@@ -257,7 +257,7 @@
 
 - aa6e3fe: fix: Initialize MediaStreamClip's width, height and cvs in the first call of onChunk with the firstFrame information #343
 - 1055cac: resolve size mismatch issue in MediaStreamClip during tab recording #343
-  - @webav/internal-utils@1.0.13
+  - @hy/internal-utils@1.0.13
 
 ## 1.0.12
 
@@ -266,7 +266,7 @@
 - 146881f: chore: upgrade mp4box.js version
 - 0dab489: add tickInterceptor to audio-clip
 - Updated dependencies [146881f]
-  - @webav/internal-utils@1.0.12
+  - @hy/internal-utils@1.0.12
 
 ## 1.0.11
 
@@ -274,21 +274,21 @@
 
 - 57b08dc: fix: decoder queue size maybe too large
 - Updated dependencies [edee0df]
-  - @webav/internal-utils@1.0.11
+  - @hy/internal-utils@1.0.11
 
 ## 1.0.10
 
 ### Patch Changes
 
 - c6e4ebb: fix: parse audio timeout
-  - @webav/internal-utils@1.0.10
+  - @hy/internal-utils@1.0.10
 
 ## 1.0.9
 
 ### Patch Changes
 
 - ef1cc97: chore: more log info
-  - @webav/internal-utils@1.0.9
+  - @hy/internal-utils@1.0.9
 
 ## 1.0.8
 
@@ -300,21 +300,21 @@
 - 96dadac: feat: many args for Combinator.isSupported
 - Updated dependencies [6a158b1]
 - Updated dependencies [6a92cbf]
-  - @webav/internal-utils@1.0.8
+  - @hy/internal-utils@1.0.8
 
 ## 1.0.7
 
 ### Patch Changes
 
 - 443516f: fix: maybe timeout for decode audio when tick a too large time
-  - @webav/internal-utils@1.0.7
+  - @hy/internal-utils@1.0.7
 
 ## 1.0.6
 
 ### Patch Changes
 
 - Updated dependencies [3cc3cc7]
-  - @webav/internal-utils@1.0.6
+  - @hy/internal-utils@1.0.6
 
 ## 1.0.5
 
@@ -323,7 +323,7 @@
 - ce5ebc8: fix: corrected the link to av-recorder
 - 27e74c1: refactor: change the split method of the IClip interface to be optional #324
 - Updated dependencies [ce5ebc8]
-  - @webav/internal-utils@1.0.5
+  - @hy/internal-utils@1.0.5
 
 ## 1.0.4
 
@@ -332,29 +332,29 @@
 - f934fe6: fix: decode HEVC error when start with SEI
 - edda979: workflow: add ci workflow to run ci:test
 - Updated dependencies [edda979]
-  - @webav/internal-utils@1.0.4
+  - @hy/internal-utils@1.0.4
 
 ## 1.0.3
 
 ### Patch Changes
 
-- b178269: chore: replace prepublishOnly with prepare scripts to auto build @webav/av-cliper and @webav/internal-utils
+- b178269: chore: replace prepublishOnly with prepare scripts to auto build @hy/av-cliper and @hy/internal-utils
 - Updated dependencies [b178269]
-  - @webav/internal-utils@1.0.3
+  - @hy/internal-utils@1.0.3
 
 ## 1.0.2
 
 ### Patch Changes
 
 - 35aae3f: feat: createCombinator support more augs
-  - @webav/internal-utils@1.0.2
+  - @hy/internal-utils@1.0.2
 
 ## 1.0.1
 
 ### Patch Changes
 
 - 720f20b: fix: black frame #308
-  - @webav/internal-utils@1.0.1
+  - @hy/internal-utils@1.0.1
 
 ## 1.0.0
 
@@ -366,14 +366,14 @@
 
 - 5631c29: fix: IDR frame recognition for HEVC #306
 - Updated dependencies [8212cb5]
-  - @webav/internal-utils@1.0.0
+  - @hy/internal-utils@1.0.0
 
 ## 1.0.0-beta.1
 
 ### Patch Changes
 
 - 5631c29: fix: IDR frame recognition for HEVC #306
-  - @webav/internal-utils@1.0.0-beta.1
+  - @hy/internal-utils@1.0.0-beta.1
 
 ## 1.0.0-beta.0
 
@@ -384,7 +384,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @webav/internal-utils@1.0.0-beta.0
+  - @hy/internal-utils@1.0.0-beta.0
 
 ## 0.16.5
 

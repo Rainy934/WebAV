@@ -16,4 +16,4 @@ export { OffscreenSprite } from './sprite/offscreen-sprite';
 export { Rect } from './sprite/rect';
 export { VisibleSprite } from './sprite/visible-sprite';
 
-export { Log } from '@webav/internal-utils';
+export { Log } from '@hy/internal-utils';

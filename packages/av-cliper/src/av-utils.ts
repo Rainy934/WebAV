@@ -1,9 +1,9 @@
 // 能同时在 worker 和主线程中运行的工具函数
 
-import { workerTimer } from '@webav/internal-utils';
+import { workerTimer } from '@hy/internal-utils';
 import * as waveResampler from 'wave-resampler';
 
-import { Log } from '@webav/internal-utils';
+import { Log } from '@hy/internal-utils';
 
 if (import.meta.env?.DEV) {
   Log.setLogLevel(Log.debug);

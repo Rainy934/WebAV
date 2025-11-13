@@ -1,7 +1,7 @@
-import { useState, useRef, useEffect } from 'react';
+import { fixFMP4Duration } from '@hy/av-cliper';
+import { AVRecorder } from '@hy/av-recorder';
 import { Button, Divider } from 'antd';
-import { AVRecorder } from '@webav/av-recorder';
-import { fixFMP4Duration } from '@webav/av-cliper';
+import { useEffect, useRef, useState } from 'react';
 import { createFileWriter } from './utils';
 
 let recorder: AVRecorder | null = null;

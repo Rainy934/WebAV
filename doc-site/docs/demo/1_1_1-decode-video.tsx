@@ -1,4 +1,4 @@
-import { MP4Clip } from '@webav/av-cliper';
+import { MP4Clip } from '@hy/av-cliper';
 import { Button, Divider, Radio } from 'antd';
 import { useState } from 'react';
 import { assetsPrefix } from './utils';

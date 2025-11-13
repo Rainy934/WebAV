@@ -14,16 +14,16 @@ order: 2
 :::code-group
 
 ```bash [npm]
-$ npm install @webav/av-cliper
+$ npm install @hy/av-cliper
 ```
 
 ```bash [pnpm]
-$ pnpm add @webav/av-cliper
+$ pnpm add @hy/av-cliper
 ```
 
 :::
 
-If your project relies on multiple packages under `@webav/*`, be sure to keep their version numbers consistent.
+If your project relies on multiple packages under `@hy/*`, be sure to keep their version numbers consistent.
 
 ## Project Structure
 
